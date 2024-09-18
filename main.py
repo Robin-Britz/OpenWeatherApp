@@ -1,4 +1,4 @@
-import typing
+import typing 
 import fastapi
 
 app = fastapi.FastAPI()
@@ -7,6 +7,7 @@ with open("creds.env", "r") as key:
     api_key = key.readline()
 
 # print(api_key)
+
 
 @app.get("/")
 def read_root():
