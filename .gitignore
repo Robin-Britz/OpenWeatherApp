@@ -1,5 +1,3 @@
 _pycache_/
 openweather-venv/
-creds.env
-
-
+.env
